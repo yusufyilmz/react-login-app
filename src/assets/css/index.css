@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+    /*border: 3px solid #f1f1f1;*/
+      position: absolute;
+     width: 500px;
+    height: 420px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+
+.form-complete {
+  display: flex;
+flex-direction: column;  
+}
+input[type=text], input[type=number], input[type=date], select  {
+    /*width: 400px;*/
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+}
+
+a {
+    display: block;
+}
+
+select {
+  height: 50px!important;
+}
+h1 {
+    padding-left: 200px;
+    display: block;
+    /*padding-top: 50px;*/
+}
+
+.error-container {
+  margin-top: 25px;
+  width: 350px;
+    margin-left: 450px;
+}
+
+.error-container-complete {
+  margin-top: 25px;
+  max-width: 350px;
+    margin-left: 450px;
+}
+
+.link{
+  padding-left: 190px;
+
+}
+
+.error-link {
+  padding-left: 130px;
+}
+
+.container  {
+  width: 500px;
+  height: 100px;
+  position: relative
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 100px 0;
+}
+
+td {
+  padding: 10px 0;
+}
